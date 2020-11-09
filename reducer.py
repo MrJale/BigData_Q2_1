@@ -28,4 +28,5 @@ for k,v in player.items():
     v.sort(key=lambda x: x[1])
     
 for k,v in player.items():
-    print(f'{k:20}{v[0][0]:20}')
+#     print(f'{k:20}{v[0][0]:20}')
+    print '%s\t%s' % (k,v[0][0])

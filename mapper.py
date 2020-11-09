@@ -25,4 +25,5 @@ for row in reader:
         dic[pair][1] += 1
         
 for k,v in dic.items():
-    print(k[0],"@",k[1],"@",v[0],"@",v[1])
+#     print(k[0],"@",k[1],"@",v[0],"@",v[1])
+    print '%s@%s@%s@%s' % (k[0],k[1],v[0],v[1])

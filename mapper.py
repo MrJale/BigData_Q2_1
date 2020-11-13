@@ -3,11 +3,6 @@
 import csv
 import sys
 
-# with open(sys.stdin, "r", encoding = "utf-8") as f:
-#     reader = csv.reader(f)
-#     headers = next(f)
-#     rows = [row for row in reader]
-
 reader = csv.reader(sys.stdin)
 reader.__next__()
     
@@ -25,5 +20,5 @@ for row in reader:
         dic[pair][1] += 1
         
 for k,v in dic.items():
-#     print(k[0],"@",k[1],"@",v[0],"@",v[1])
+    #print(k[0],"@",k[1],"@",v[0],"@",v[1])
     print '%s@%s@%s@%s' % (k[0],k[1],v[0],v[1])

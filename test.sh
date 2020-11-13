@@ -12,3 +12,4 @@ bash start.sh
 /usr/local/hadoop/bin/hdfs dfs -rm -r /BigData_Q2_1/input/
 /usr/local/hadoop/bin/hdfs dfs -rm -r /BigData_Q2_1/output/
 bash stop.sh
+
